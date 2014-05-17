@@ -60,7 +60,7 @@ public class UserInterface implements Runnable {
         JPanel titleBar = new JPanel();
         titleBar.setLayout(new GridLayout(1,3));
         titleBar.add(new JLabel("Worm game"));
-        titleBar.add(new JLabel("Build: 0.01a"));
+        titleBar.add(new JLabel("Build: 0.02a"));
         return titleBar;
     }
 
